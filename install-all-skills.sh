@@ -1,6 +1,6 @@
 #!/bin/bash
 # 🤖 AI Company Skills Installer - One-Tap Install All ~150 Skills
-# Run: curl -sSL https://raw.githubusercontent.com/animeprints/ai-company/main/install-all-skills.sh | bash
+# Run: curl -sSL https://raw.githubusercontent.com/drajeevreddy/ai-company/main/install-all-skills.sh | bash
 # Or: bash install-all-skills.sh
 
 set -e
@@ -192,6 +192,6 @@ echo "  skill find '<keyword>'         # Find more skills"
 echo "  skill run <owner/repo>         # Run a skill"
 echo ""
 echo "📁 Files downloaded to: ~/ai-company/"
-echo "🔗 Full docs: https://github.com/animeprints/ai-company"
+echo "🔗 Full docs: https://github.com/drajeevreddy/ai-company"
 echo ""
 echo "🎉 You're ready to build!"

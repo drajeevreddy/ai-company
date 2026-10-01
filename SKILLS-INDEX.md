@@ -1,8 +1,14 @@
 # Skill Index
 
-**555 unique skills** across 8 CLI skill roots — consolidated from the local agent installations (hermes, claude, codex, commandcode, cursor, agents, muse, gstack).
+**553 unique skills** across 8 CLI skill roots — consolidated from the local agent
+installations (hermes, claude, codex, commandcode, cursor, agents, muse, gstack).
 
-When two CLIs carry a byte-identical skill it is stored once, under the first CLI that had it; the other CLIs appear in the *Also in* column. 111 skills are shared by more than one CLI. Full mapping in `_aliases.json`.
+555 `SKILL.md` files are present; 2 are nested duplicates inside `gstack` skill folders,
+so the distinct-skill count is 553.
+
+When two CLIs carry a byte-identical skill it is stored once, under the first CLI that had
+it; the other CLIs appear in the *Also in* column. 111 skills are carried by more than one
+CLI in the source installations. Full mapping in `_aliases.json`.
 
 | CLI | Skills |
 |---|---|

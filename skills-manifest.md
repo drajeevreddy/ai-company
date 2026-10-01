@@ -7,7 +7,7 @@
 ## 🚀 One-Tap Install ALL
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/animeprints/ai-company/main/install-all-skills.sh | bash
+curl -sSL https://raw.githubusercontent.com/drajeevreddy/ai-company/main/install-all-skills.sh | bash
 ```
 
 This will install ~150+ core skills across all categories.
