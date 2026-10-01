@@ -8,6 +8,23 @@
 
 ---
 
+## 🧠 Skill Library
+
+This repo also carries the consolidated skill library from every local agent CLI —
+**555 unique skills** across 8 roots (hermes, claude, codex,
+commandcode, cursor, agents, muse, gstack). Exact duplicates were merged; cross-CLI
+aliases are recorded in `_aliases.json`.
+
+```
+skills/<cli>/<skill>/        # SKILL.md + references/, templates/, scripts/, assets/
+SKILLS-INDEX.md              # every skill with its description
+_aliases.json                # which other CLIs carry the same skill
+```
+
+See `SKILLS-INDEX.md` for the full list.
+
+---
+
 ## 🚀 Quick Start (One Command)
 
 ```bash

@@ -1,0 +1,16 @@
+[Unit]
+Description=OmniRoute AI Routing Gateway
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/%u/OmniRoute
+ExecStart=/home/%u/.local/bin/node --max-old-space-size=8192 scripts/dev/run-next.mjs start
+Restart=on-failure
+RestartSec=5
+EnvironmentFile=/home/%u/OmniRoute/.env
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target

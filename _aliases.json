@@ -1,0 +1,834 @@
+{
+ "hermes/ai-routing-gateway": [],
+ "hermes/airtable": [],
+ "hermes/apple-notes": [],
+ "hermes/apple-reminders": [],
+ "hermes/architecture-diagram": [],
+ "hermes/arxiv": [],
+ "hermes/ascii-video": [],
+ "hermes/baoyu-infographic": [],
+ "hermes/brand-recovery": [],
+ "hermes/browser-agents": [],
+ "hermes/cinematic-web-development": [],
+ "hermes/claude-code": [],
+ "hermes/codebase-inspection": [],
+ "hermes/codex": [],
+ "hermes/computer-use": [],
+ "hermes/demo-video-production": [],
+ "hermes/docx": [],
+ "hermes/findmy": [],
+ "hermes/free-chatbot-platform": [],
+ "hermes/gif-search": [],
+ "hermes/grounded-citations": [],
+ "hermes/gstack-install": [],
+ "hermes/hosting-php-apps": [],
+ "hermes/imessage": [],
+ "hermes/inspecting-hermes-desktop-dom": [],
+ "hermes/legacy-php-csv-app-hardening": [],
+ "hermes/llm-api-benchmarking": [],
+ "hermes/llm-wiki": [],
+ "hermes/localai": [],
+ "hermes/manim-video": [],
+ "hermes/maps": [],
+ "hermes/nextjs-supabase-vercel-ops": [],
+ "hermes/node-inspect-debugger": [],
+ "hermes/notion": [],
+ "hermes/opencode": [],
+ "hermes/p5js": [],
+ "hermes/php-docker-apache-deployment": [],
+ "hermes/popular-web-designs": [],
+ "hermes/powerpoint": [],
+ "hermes/python-debugpy": [],
+ "hermes/requesting-code-review": [],
+ "hermes/simplify-code": [],
+ "hermes/songsee": [],
+ "hermes/spike": [],
+ "hermes/supabase-app-fixes": [],
+ "hermes/supabase-nextjs-debugging": [],
+ "hermes/systematic-debugging": [],
+ "hermes/teams-meeting-pipeline": [],
+ "hermes/test-driven-development": [],
+ "hermes/website-reconnaissance": [],
+ "hermes/website-security-hardening": [],
+ "hermes/youtube-content": [],
+ "hermes/blynk-prompt": [],
+ "hermes/achieving-cmmc-level-2-compliance": [],
+ "hermes/agent-build-packs": [],
+ "hermes/analytics-insights": [],
+ "hermes/analyzing-malware-behavior-with-cuckoo-sandbox": [],
+ "hermes/analyzing-security-logs-with-splunk": [],
+ "hermes/analyzing-windows-event-logs-in-splunk": [],
+ "hermes/auditing-azure-active-directory-configuration": [],
+ "hermes/auditing-cloud-with-cis-benchmarks": [],
+ "hermes/avoid-ai-writing": [],
+ "hermes/blue-ocean-strategy": [],
+ "hermes/brand-context": [],
+ "hermes/bug-bounty": [],
+ "hermes/caveman": [],
+ "hermes/chainlink-ccip-skill": [],
+ "hermes/clean-code": [],
+ "hermes/code-review": [],
+ "hermes/codebase-design": [],
+ "hermes/command-code": [],
+ "hermes/community-management": [],
+ "hermes/competitor-analysis": [],
+ "hermes/conducting-external-reconnaissance-with-osint": [],
+ "hermes/content-calendar": [],
+ "hermes/continuous-llm-red-teaming-with-promptfoo": [],
+ "hermes/cursor-agent": [],
+ "hermes/ddia-systems": [],
+ "hermes/diagnosing-bugs": [],
+ "hermes/domain-modeling": [],
+ "hermes/engagement-routine": [],
+ "hermes/good-strategy-bad-strategy": [],
+ "hermes/grill-with-docs": [],
+ "hermes/hermes-agent": [],
+ "hermes/hermes-skill-discovery-install": [],
+ "hermes/hermes-skill-library-portability": [],
+ "hermes/high-output-management": [],
+ "hermes/hunt-api-misconfig": [],
+ "hermes/hunt-auth-bypass": [],
+ "hermes/hunt-idor": [],
+ "hermes/hunt-llm-ai": [],
+ "hermes/hunt-rce": [],
+ "hermes/hunt-sqli": [],
+ "hermes/hunt-ssrf": [],
+ "hermes/hunt-xss": [],
+ "hermes/implement": [],
+ "hermes/implementing-api-rate-limiting-and-throttling": [],
+ "hermes/implementing-api-security-posture-management": [],
+ "hermes/implementing-api-security-testing-with-42crunch": [],
+ "hermes/implementing-api-threat-protection-with-apigee": [],
+ "hermes/implementing-aws-config-rules-for-compliance": [],
+ "hermes/implementing-aws-security-hub": [],
+ "hermes/implementing-gdpr-data-protection-controls": [],
+ "hermes/implementing-github-advanced-security-for-code-scanning": [],
+ "hermes/implementing-iso-27001-information-security-management": [],
+ "hermes/implementing-pci-dss-compliance-controls": [],
+ "hermes/implementing-secrets-management-with-vault": [],
+ "hermes/implementing-secrets-scanning-in-ci-cd": [],
+ "hermes/implementing-semgrep-for-custom-sast-rules": [],
+ "hermes/improve-codebase-architecture": [
+  "gstack/improve-codebase-architecture"
+ ],
+ "hermes/integrating-dast-with-owasp-zap-in-pipeline": [],
+ "hermes/integrating-sast-into-github-actions-pipeline": [],
+ "hermes/jobs-to-be-done": [],
+ "hermes/kali-pentest": [],
+ "hermes/lean-analytics": [],
+ "hermes/lean-startup": [],
+ "hermes/linkedin": [],
+ "hermes/mcp-server-integration": [],
+ "hermes/meta-ads": [],
+ "hermes/mimo": [],
+ "hermes/mom-test": [],
+ "hermes/multi-agent-orchestration": [],
+ "hermes/obviously-awesome": [],
+ "hermes/offensive-osint": [],
+ "hermes/one-page-marketing": [],
+ "hermes/onequery-cli": [],
+ "hermes/paleo": [],
+ "hermes/paleo-auto": [],
+ "hermes/paleo-budget": [],
+ "hermes/paleo-converse": [],
+ "hermes/paleo-json": [],
+ "hermes/paleo-summary": [],
+ "hermes/paleo-trim-context": [],
+ "hermes/performing-aws-account-enumeration-with-scout-suite": [],
+ "hermes/performing-cloud-asset-inventory-with-cartography": [],
+ "hermes/performing-cloud-penetration-testing-with-pacu": [],
+ "hermes/performing-container-security-scanning-with-trivy": [],
+ "hermes/performing-credential-access-with-lazagne": [],
+ "hermes/performing-disk-forensics-investigation": [],
+ "hermes/performing-fuzzing-with-aflplusplus": [],
+ "hermes/performing-gcp-penetration-testing-with-gcpbucketbrute": [],
+ "hermes/performing-nist-csf-maturity-assessment": [],
+ "hermes/performing-ransomware-response": [],
+ "hermes/performing-red-team-phishing-with-gophish": [],
+ "hermes/performing-sca-dependency-scanning-with-snyk": [],
+ "hermes/performing-security-headers-audit": [],
+ "hermes/performing-soc2-type2-audit-preparation": [],
+ "hermes/performing-threat-emulation-with-atomic-red-team": [],
+ "hermes/performing-vulnerability-scanning-with-nessus": [],
+ "hermes/performing-web-application-firewall-bypass": [],
+ "hermes/performing-web-application-scanning-with-nikto": [],
+ "hermes/ponytail": [],
+ "hermes/pragmatic-programmer": [],
+ "hermes/prototype": [],
+ "hermes/redteam-mindset": [],
+ "hermes/refactoring-patterns": [],
+ "hermes/research": [],
+ "hermes/resolving-merge-conflicts": [],
+ "hermes/scanning-containers-with-trivy-in-cicd": [],
+ "hermes/scanning-kubernetes-manifests-with-kubesec": [],
+ "hermes/securing-api-gateway-with-aws-waf": [],
+ "hermes/securing-aws-iam-permissions": [],
+ "hermes/securing-aws-lambda-execution-roles": [],
+ "hermes/securing-azure-with-microsoft-defender": [],
+ "hermes/software-design-philosophy": [],
+ "hermes/system-design": [],
+ "hermes/tdd": [],
+ "hermes/team-topologies": [],
+ "hermes/testing-api-for-mass-assignment-vulnerability": [],
+ "hermes/testing-prompt-injection-in-rag-pipelines": [],
+ "hermes/tiktok": [],
+ "hermes/to-spec": [],
+ "hermes/to-tickets": [],
+ "hermes/transcript": [],
+ "hermes/triage": [],
+ "hermes/velen-cli": [],
+ "hermes/vibe": [],
+ "hermes/wayfinder": [],
+ "hermes/web2-recon": [],
+ "hermes/wizard": [],
+ "hermes/workspace-dispatch": [],
+ "hermes/youtube-channels": [],
+ "hermes/youtube-full": [],
+ "hermes/youtube-search": [],
+ "hermes/zillow-full": [],
+ "hermes/zillow-search": [],
+ "hermes/cold-email-outreach": [],
+ "hermes/ascii-art": [],
+ "hermes/canvas-design": [],
+ "hermes/captions-overlay": [],
+ "hermes/changelog-video": [],
+ "hermes/claude-design": [],
+ "hermes/comfyui": [],
+ "hermes/cut-the-curve": [],
+ "hermes/design-md": [],
+ "hermes/embedded-captions": [],
+ "hermes/excalidraw": [],
+ "hermes/faceless-explainer": [],
+ "hermes/figma": [],
+ "hermes/frontend-design": [],
+ "hermes/general-video": [],
+ "hermes/humanizer": [],
+ "hermes/hyperframes": [],
+ "hermes/hyperframes-animation": [
+  "agents/hyperframes-animation",
+  "claude/hyperframes-animation"
+ ],
+ "hermes/hyperframes-audio": [],
+ "hermes/hyperframes-cli": [],
+ "hermes/hyperframes-core": [
+  "agents/hyperframes-core",
+  "claude/hyperframes-core"
+ ],
+ "hermes/hyperframes-creative": [
+  "agents/hyperframes-creative",
+  "claude/hyperframes-creative"
+ ],
+ "hermes/hyperframes-keyframes": [
+  "agents/hyperframes-keyframes",
+  "claude/hyperframes-keyframes"
+ ],
+ "hermes/hyperframes-registry": [],
+ "hermes/media-use": [
+  "agents/media-use",
+  "claude/media-use"
+ ],
+ "hermes/motion-doctrine": [],
+ "hermes/motion-graphics": [],
+ "hermes/music-to-video": [],
+ "hermes/oversized-cursor": [],
+ "hermes/pillow-graphics": [],
+ "hermes/pr-to-video": [],
+ "hermes/pretext": [],
+ "hermes/product-launch-video": [],
+ "hermes/quivane-design-system": [],
+ "hermes/quivane-execution-tax": [],
+ "hermes/remotion-to-hyperframes": [],
+ "hermes/remotion-video-production": [],
+ "hermes/seam-craft": [],
+ "hermes/sketch": [],
+ "hermes/slideshow": [],
+ "hermes/songwriting-and-ai-music": [],
+ "hermes/talking-head-recut": [],
+ "hermes/theme-factory": [],
+ "hermes/touchdesigner-mcp": [],
+ "hermes/web-design-guidelines": [
+  "gstack/web-design-guidelines"
+ ],
+ "hermes/woopsocial-publish": [],
+ "hermes/sales-data-generator": [],
+ "hermes/poster-qa": [],
+ "hermes/android-tablet-second-screen-usb": [],
+ "hermes/linux-desktop-app-integration": [],
+ "hermes/sdlc-review": [],
+ "hermes/supabase-project-operations": [],
+ "hermes/vercel-deployment-troubleshooting": [],
+ "hermes/email-inbox-triage": [],
+ "hermes/himalaya": [],
+ "hermes/github-auth": [],
+ "hermes/github-code-review": [],
+ "hermes/github-issues": [],
+ "hermes/github-pr-workflow": [],
+ "hermes/github-repo-management": [],
+ "hermes/gstack": [],
+ "hermes/gstack-upgrade": [
+  "claude/gstack-upgrade",
+  "commandcode/gstack-upgrade",
+  "cursor/gstack-upgrade"
+ ],
+ "hermes/hermes-persistent-context": [],
+ "hermes/himalaya-v2x-config": [],
+ "hermes/linux-appimage-desktop": [],
+ "hermes/evaluating-llms-harness": [],
+ "hermes/weights-and-biases": [],
+ "hermes/huggingface-hub": [],
+ "hermes/llama-cpp": [],
+ "hermes/serving-llms-vllm": [],
+ "hermes/localai-image-generation": [],
+ "hermes/obsidian": [],
+ "hermes/artifact-delivery": [],
+ "hermes/box": [],
+ "hermes/collective-wisdom-install": [],
+ "hermes/document-to-action-items": [],
+ "hermes/google-workspace": [],
+ "hermes/meeting-action-items": [],
+ "hermes/nano-pdf": [],
+ "hermes/ocr-and-documents": [],
+ "hermes/pdf": [],
+ "hermes/product-price-monitor": [],
+ "hermes/seo-content-creation": [],
+ "hermes/weekly-review-planning": [],
+ "hermes/xlsx": [],
+ "hermes/blogwatcher": [],
+ "hermes/competitor-news-monitor": [],
+ "hermes/polymarket": [],
+ "hermes/research-paper-writing": [],
+ "hermes/app-security-slop-audit": [],
+ "hermes/godmode": [],
+ "hermes/security-tool-integration": [],
+ "hermes/supabase-rls-data-layer-audit": [],
+ "hermes/openhue": [],
+ "hermes/instagram-reel-prompts": [],
+ "hermes/social-page-audit": [],
+ "hermes/xurl": [],
+ "hermes/dogfood": [],
+ "hermes/github": [],
+ "hermes/headless-site-inspection": [],
+ "hermes/hermes-agent-skill-authoring": [],
+ "hermes/nextjs-supabase-e2e-testing": [],
+ "hermes/october-canvas-bus": [],
+ "hermes/plan": [],
+ "hermes/site-content-recovery": [],
+ "hermes/site-visual-review": [],
+ "hermes/skill-creator": [],
+ "hermes/static-site-audit": [],
+ "hermes/third-party-license-audit": [],
+ "hermes/ui-quality-audit": [],
+ "hermes/vercel-composition-patterns": [],
+ "hermes/vercel-react-best-practices": [
+  "gstack/vercel-react-best-practices"
+ ],
+ "hermes/web-scraping-pipelines": [],
+ "hermes/webapp-testing": [
+  "gstack/webapp-testing"
+ ],
+ "hermes/blocked-page-recovery": [],
+ "hermes/website-audit": [],
+ "hermes/x402-agentic-payments": [],
+ "claude/_gstack-command": [
+  "commandcode/gstack"
+ ],
+ "claude/amazon-bedrock": [
+  "agents/amazon-bedrock",
+  "cursor/amazon-bedrock",
+  "pi/amazon-bedrock"
+ ],
+ "claude/autoplan": [
+  "commandcode/autoplan"
+ ],
+ "claude/aws-ai-ml": [
+  "agents/aws-ai-ml",
+  "cursor/aws-ai-ml",
+  "pi/aws-ai-ml"
+ ],
+ "claude/aws-auth": [
+  "agents/aws-auth",
+  "cursor/aws-auth",
+  "pi/aws-auth"
+ ],
+ "claude/aws-billing-and-cost-management": [
+  "agents/aws-billing-and-cost-management",
+  "cursor/aws-billing-and-cost-management",
+  "pi/aws-billing-and-cost-management"
+ ],
+ "claude/aws-blocks": [
+  "agents/aws-blocks",
+  "cursor/aws-blocks",
+  "pi/aws-blocks"
+ ],
+ "claude/aws-cdk": [
+  "agents/aws-cdk",
+  "cursor/aws-cdk",
+  "pi/aws-cdk"
+ ],
+ "claude/aws-cloudformation": [
+  "agents/aws-cloudformation",
+  "cursor/aws-cloudformation",
+  "pi/aws-cloudformation"
+ ],
+ "claude/aws-compute": [
+  "agents/aws-compute",
+  "cursor/aws-compute",
+  "pi/aws-compute"
+ ],
+ "claude/aws-containers": [
+  "agents/aws-containers",
+  "cursor/aws-containers",
+  "pi/aws-containers"
+ ],
+ "claude/aws-database": [
+  "agents/aws-database",
+  "cursor/aws-database",
+  "pi/aws-database"
+ ],
+ "claude/aws-deployment": [
+  "agents/aws-deployment",
+  "cursor/aws-deployment",
+  "pi/aws-deployment"
+ ],
+ "claude/aws-iam": [
+  "agents/aws-iam",
+  "cursor/aws-iam",
+  "pi/aws-iam"
+ ],
+ "claude/aws-messaging-and-streaming": [
+  "agents/aws-messaging-and-streaming",
+  "cursor/aws-messaging-and-streaming",
+  "pi/aws-messaging-and-streaming"
+ ],
+ "claude/aws-networking": [
+  "agents/aws-networking",
+  "cursor/aws-networking",
+  "pi/aws-networking"
+ ],
+ "claude/aws-observability": [
+  "agents/aws-observability",
+  "cursor/aws-observability",
+  "pi/aws-observability"
+ ],
+ "claude/aws-sdk-js-v3-usage": [
+  "agents/aws-sdk-js-v3-usage",
+  "cursor/aws-sdk-js-v3-usage",
+  "pi/aws-sdk-js-v3-usage"
+ ],
+ "claude/aws-sdk-python-usage": [
+  "agents/aws-sdk-python-usage",
+  "cursor/aws-sdk-python-usage",
+  "pi/aws-sdk-python-usage"
+ ],
+ "claude/aws-sdk-swift-usage": [
+  "agents/aws-sdk-swift-usage",
+  "cursor/aws-sdk-swift-usage",
+  "pi/aws-sdk-swift-usage"
+ ],
+ "claude/aws-security": [
+  "agents/aws-security",
+  "cursor/aws-security",
+  "pi/aws-security"
+ ],
+ "claude/aws-serverless": [
+  "agents/aws-serverless",
+  "cursor/aws-serverless",
+  "pi/aws-serverless"
+ ],
+ "claude/aws-storage": [
+  "agents/aws-storage",
+  "cursor/aws-storage",
+  "pi/aws-storage"
+ ],
+ "claude/benchmark": [
+  "commandcode/benchmark"
+ ],
+ "claude/benchmark-models": [
+  "commandcode/benchmark-models"
+ ],
+ "claude/brag": [
+  "agents/brag",
+  "gemini/brag"
+ ],
+ "claude/browse": [
+  "commandcode/browse"
+ ],
+ "claude/canary": [
+  "commandcode/canary"
+ ],
+ "claude/careful": [
+  "commandcode/careful"
+ ],
+ "claude/codex": [
+  "commandcode/codex"
+ ],
+ "claude/connect-chrome": [
+  "claude/open-gstack-browser",
+  "commandcode/open-gstack-browser"
+ ],
+ "claude/context-restore": [
+  "commandcode/context-restore"
+ ],
+ "claude/context-save": [
+  "commandcode/context-save"
+ ],
+ "claude/cso": [
+  "commandcode/cso"
+ ],
+ "claude/design-consultation": [
+  "commandcode/design-consultation"
+ ],
+ "claude/design-html": [
+  "commandcode/design-html"
+ ],
+ "claude/design-review": [
+  "commandcode/design-review"
+ ],
+ "claude/design-shotgun": [
+  "commandcode/design-shotgun"
+ ],
+ "claude/devex-review": [
+  "commandcode/devex-review"
+ ],
+ "claude/diagram": [
+  "commandcode/diagram"
+ ],
+ "claude/document-generate": [
+  "commandcode/document-generate"
+ ],
+ "claude/document-release": [
+  "commandcode/document-release"
+ ],
+ "claude/freeze": [
+  "commandcode/freeze"
+ ],
+ "claude/general-video": [
+  "agents/general-video"
+ ],
+ "claude/graft": [],
+ "claude/guard": [
+  "commandcode/guard"
+ ],
+ "claude/health": [
+  "commandcode/health"
+ ],
+ "claude/hyperframes": [
+  "agents/hyperframes"
+ ],
+ "claude/hyperframes-audio": [
+  "agents/hyperframes-audio"
+ ],
+ "claude/hyperframes-cli": [
+  "agents/hyperframes-cli"
+ ],
+ "claude/hyperframes-registry": [
+  "agents/hyperframes-registry"
+ ],
+ "claude/investigate": [
+  "commandcode/investigate"
+ ],
+ "claude/ios-clean": [
+  "commandcode/ios-clean"
+ ],
+ "claude/ios-design-review": [
+  "commandcode/ios-design-review"
+ ],
+ "claude/ios-fix": [
+  "commandcode/ios-fix"
+ ],
+ "claude/ios-qa": [
+  "commandcode/ios-qa"
+ ],
+ "claude/ios-sync": [
+  "commandcode/ios-sync"
+ ],
+ "claude/land-and-deploy": [
+  "commandcode/land-and-deploy"
+ ],
+ "claude/landing-report": [
+  "commandcode/landing-report"
+ ],
+ "claude/launch-with-aws": [
+  "agents/launch-with-aws",
+  "cursor/launch-with-aws",
+  "pi/launch-with-aws"
+ ],
+ "claude/learn": [
+  "commandcode/learn"
+ ],
+ "claude/make-pdf": [
+  "commandcode/make-pdf"
+ ],
+ "claude/office-hours": [
+  "commandcode/office-hours"
+ ],
+ "claude/pair-agent": [
+  "commandcode/pair-agent"
+ ],
+ "claude/plan-ceo-review": [
+  "commandcode/plan-ceo-review"
+ ],
+ "claude/plan-design-review": [
+  "commandcode/plan-design-review"
+ ],
+ "claude/plan-devex-review": [
+  "commandcode/plan-devex-review"
+ ],
+ "claude/plan-eng-review": [
+  "commandcode/plan-eng-review"
+ ],
+ "claude/plan-tune": [
+  "commandcode/plan-tune"
+ ],
+ "claude/qa": [
+  "commandcode/qa"
+ ],
+ "claude/qa-only": [
+  "commandcode/qa-only"
+ ],
+ "claude/retro": [
+  "commandcode/retro"
+ ],
+ "claude/review": [
+  "commandcode/review"
+ ],
+ "claude/scrape": [
+  "commandcode/scrape"
+ ],
+ "claude/setting-up-cloudwatch-observability": [
+  "agents/setting-up-cloudwatch-observability",
+  "cursor/setting-up-cloudwatch-observability",
+  "pi/setting-up-cloudwatch-observability"
+ ],
+ "claude/setup-browser-cookies": [
+  "commandcode/setup-browser-cookies"
+ ],
+ "claude/setup-deploy": [
+  "commandcode/setup-deploy"
+ ],
+ "claude/setup-gbrain": [
+  "commandcode/setup-gbrain"
+ ],
+ "claude/ship": [
+  "commandcode/ship"
+ ],
+ "claude/signing-in-to-aws": [
+  "agents/signing-in-to-aws",
+  "cursor/signing-in-to-aws",
+  "pi/signing-in-to-aws"
+ ],
+ "claude/skillify": [
+  "commandcode/skillify"
+ ],
+ "claude/spec": [
+  "commandcode/spec"
+ ],
+ "claude/10x": [
+  "superset/10x"
+ ],
+ "claude/automate": [
+  "superset/automate"
+ ],
+ "claude/browser": [
+  "superset/browser"
+ ],
+ "claude/computer": [
+  "superset/computer"
+ ],
+ "claude/contribute": [
+  "superset/contribute"
+ ],
+ "claude/doctor": [
+  "superset/doctor"
+ ],
+ "claude/feedback": [
+  "superset/feedback"
+ ],
+ "claude/integrations": [
+  "superset/integrations"
+ ],
+ "claude/orchestrate": [
+  "superset/orchestrate"
+ ],
+ "claude/page": [
+  "superset/page"
+ ],
+ "claude/plugins": [
+  "superset/plugins"
+ ],
+ "claude/setup": [
+  "superset/setup"
+ ],
+ "claude/standup": [
+  "superset/standup"
+ ],
+ "claude/sync-gbrain": [
+  "commandcode/sync-gbrain"
+ ],
+ "claude/unfreeze": [
+  "commandcode/unfreeze"
+ ],
+ "commandcode/hackernews-frontpage": [
+  "commandcode/hackernews-frontpage"
+ ],
+ "commandcode/gstack-openclaw-ceo-review": [
+  "commandcode/gstack-openclaw-ceo-review"
+ ],
+ "commandcode/gstack-openclaw-investigate": [
+  "commandcode/gstack-openclaw-investigate"
+ ],
+ "commandcode/gstack-openclaw-office-hours": [
+  "commandcode/gstack-openclaw-office-hours"
+ ],
+ "commandcode/gstack-openclaw-retro": [
+  "commandcode/gstack-openclaw-retro"
+ ],
+ "commandcode/ponytail": [],
+ "commandcode/ponytail-audit": [],
+ "commandcode/ponytail-debt": [],
+ "commandcode/ponytail-gain": [],
+ "commandcode/ponytail-help": [],
+ "commandcode/ponytail-review": [],
+ "agents/archify": [],
+ "agents/find-skills": [],
+ "agents/migrate-radix-to-base": [],
+ "agents/remotion-best-practices": [],
+ "agents/remotion-captions": [],
+ "agents/remotion-create": [],
+ "agents/remotion-docs": [],
+ "agents/remotion-interactivity": [],
+ "agents/remotion-maps": [],
+ "agents/remotion-markup": [],
+ "agents/remotion-multimedia": [],
+ "agents/remotion-render": [],
+ "agents/remotion-saas": [],
+ "agents/remotion-studio": [],
+ "agents/remotion-upgrade": [],
+ "agents/shadcn": [],
+ "agents/superset-10x": [],
+ "agents/superset-automate": [],
+ "agents/superset-browser": [],
+ "agents/superset-computer": [],
+ "agents/superset-contribute": [],
+ "agents/superset-doctor": [],
+ "agents/superset-feedback": [],
+ "agents/superset-integrations": [],
+ "agents/superset-orchestrate": [],
+ "agents/superset-page": [],
+ "agents/superset-plugins": [],
+ "agents/superset-setup": [],
+ "agents/superset-standup": [],
+ "cursor/gstack": [],
+ "codex/imagegen": [],
+ "codex/openai-docs": [],
+ "codex/plugin-creator": [],
+ "codex/review-agent": [],
+ "codex/skill-creator": [],
+ "codex/skill-installer": [],
+ "muse/create-plugin": [],
+ "muse/create-skill": [],
+ "muse/doctor": [],
+ "muse/git": [],
+ "muse/grill": [],
+ "muse/grill-and-record": [],
+ "muse/import": [],
+ "muse/manage-settings": [],
+ "muse/plan": [],
+ "muse/read-session": [],
+ "muse/taste": [],
+ "gstack/apollo-client": [],
+ "gstack/architecture-decision-records": [],
+ "gstack/architecture-patterns": [],
+ "gstack/better-auth-best-practices": [],
+ "gstack/claude-api": [],
+ "gstack/clerk-backend-api": [],
+ "gstack/clerk-nextjs-patterns": [],
+ "gstack/clerk-testing": [],
+ "gstack/clerk-webhooks": [],
+ "gstack/database-migration": [],
+ "gstack/deploy-to-vercel": [],
+ "gstack/dotnet-backend-patterns": [],
+ "gstack/e2e-testing-patterns": [],
+ "gstack/expo-tailwind-setup": [],
+ "gstack/firebase-ai-logic-basics": [],
+ "gstack/firebase-firestore": [],
+ "gstack/frontend-design": [],
+ "gstack/golang-database": [],
+ "gstack/golang-graphql": [],
+ "gstack/golang-security": [],
+ "gstack/graphql-schema": [],
+ "gstack/gstack": [],
+ "gstack/gstack-autoplan": [],
+ "gstack/gstack-benchmark": [],
+ "gstack/gstack-benchmark-models": [],
+ "gstack/gstack-browse": [],
+ "gstack/gstack-canary": [],
+ "gstack/gstack-careful": [],
+ "gstack/gstack-claude": [],
+ "gstack/gstack-context-restore": [],
+ "gstack/gstack-context-save": [],
+ "gstack/gstack-cso": [],
+ "gstack/gstack-design-consultation": [],
+ "gstack/gstack-design-html": [],
+ "gstack/gstack-design-review": [],
+ "gstack/gstack-design-shotgun": [],
+ "gstack/gstack-devex-review": [],
+ "gstack/gstack-diagram": [],
+ "gstack/gstack-document-generate": [],
+ "gstack/gstack-document-release": [],
+ "gstack/gstack-freeze": [],
+ "gstack/gstack-guard": [],
+ "gstack/gstack-health": [],
+ "gstack/gstack-investigate": [],
+ "gstack/gstack-ios-clean": [],
+ "gstack/gstack-ios-design-review": [],
+ "gstack/gstack-ios-fix": [],
+ "gstack/gstack-ios-qa": [],
+ "gstack/gstack-ios-sync": [],
+ "gstack/gstack-land-and-deploy": [],
+ "gstack/gstack-landing-report": [],
+ "gstack/gstack-learn": [],
+ "gstack/gstack-make-pdf": [],
+ "gstack/gstack-office-hours": [],
+ "gstack/gstack-open-gstack-browser": [],
+ "gstack/gstack-pair-agent": [],
+ "gstack/gstack-plan-ceo-review": [],
+ "gstack/gstack-plan-design-review": [],
+ "gstack/gstack-plan-devex-review": [],
+ "gstack/gstack-plan-eng-review": [],
+ "gstack/gstack-plan-tune": [],
+ "gstack/gstack-qa": [],
+ "gstack/gstack-qa-only": [],
+ "gstack/gstack-retro": [],
+ "gstack/gstack-review": [],
+ "gstack/gstack-scrape": [],
+ "gstack/gstack-setup-browser-cookies": [],
+ "gstack/gstack-setup-deploy": [],
+ "gstack/gstack-setup-gbrain": [],
+ "gstack/gstack-ship": [],
+ "gstack/gstack-skillify": [],
+ "gstack/gstack-spec": [],
+ "gstack/gstack-sync-gbrain": [],
+ "gstack/gstack-unfreeze": [],
+ "gstack/gstack-upgrade": [],
+ "gstack/neon": [],
+ "gstack/neon-postgres": [],
+ "gstack/nextjs-app-router-patterns": [],
+ "gstack/node": [],
+ "gstack/nodejs-backend-patterns": [],
+ "gstack/playwright-best-practices": [],
+ "gstack/playwright-cli": [],
+ "gstack/prisma-client-api": [],
+ "gstack/prisma-database-setup": [],
+ "gstack/react-native-architecture": [],
+ "gstack/react-state-management": [],
+ "gstack/security-and-hardening": [],
+ "gstack/security-review": [],
+ "gstack/tailwind-design-system": [],
+ "gstack/typescript-advanced-types": [],
+ "gstack/unocss": [],
+ "gstack/vercel-react-native-skills": [],
+ "gstack/vercel-react-view-transitions": [],
+ "gstack/vitest": [],
+ "gstack/web-component-design": []
+}

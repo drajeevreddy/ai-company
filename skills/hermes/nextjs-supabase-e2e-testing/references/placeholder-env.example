@@ -1,0 +1,41 @@
+# Placeholder Environment for Next.js + Supabase Build
+
+Use this during local build verification when pages instantiate Supabase clients at build time (static generation).
+
+```bash
+# .env.local (create in project root)
+NEXT_PUBLIC_SUPABASE_URL=https://placeholder.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=placeholder-anon-key
+SUPABASE_SERVICE_ROLE_KEY=placeholder-service-role-key
+```
+
+## Why Required
+
+Pages like `/portal`, `/reminders`, and others that import `createClient()` from `@/lib/supabase/client` or `server` will fail during `npm run build` with:
+
+```
+Error: @supabase/ssr: Your project's URL and API key are required to create a Supabase client!
+Check your Supabase project's API settings to find these values
+https://supabase.com/dashboard/project/_/settings/api
+```
+
+The placeholder values satisfy the client constructor without hitting real APIs. The build completes, and Vercel uses the real env vars at deploy time.
+
+## Usage
+
+```bash
+# One-liner
+NEXT_PUBLIC_SUPABASE_URL=https://placeholder.supabase.co \
+NEXT_PUBLIC_SUPABASE_ANON_KEY=placeholder-anon-key \
+SUPABASE_SERVICE_ROLE_KEY=placeholder-service-role-key \
+npm run build
+
+# Or create .env.local file
+cat > .env.local <<'EOF'
+NEXT_PUBLIC_SUPABASE_URL=https://placeholder.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=placeholder-anon-key
+SUPABASE_SERVICE_ROLE_KEY=placeholder-service-role-key
+EOF
+npm run build
+rm .env.local
+```

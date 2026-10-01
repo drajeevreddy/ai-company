@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name={{APP_NAME}}
+Comment={{ONE_LINE_DESCRIPTION}}
+Exec={{HOME}}/Applications/{{BINARY}}.AppImage --no-sandbox %U
+Icon={{BINARY}}
+Terminal=false
+Categories=Development;Utility;
+StartupWMClass={{WM_CLASS}}
+{{OPTIONAL_MIME_LINE}}
