@@ -25,6 +25,32 @@ See `SKILLS-INDEX.md` for the full list.
 
 ---
 
+## 🧬 Agent Brain
+
+The operating brain — not skills, but the doctrine and the record. An Obsidian vault
+under `brain/`.
+
+```
+brain/Ai Agent Brain/
+├── 00-Agent-Brain-Index.md   vault entry point
+├── System/                   operating doctrine — Astra OS, Writing Voice,
+│                             Anti-Slop-Prose, Code-Quality-Bar, Ponytail,
+│                             Award-Winning-Design, GitHub-Skills
+├── Skills/                   distilled lessons from real builds, plus the
+│                             per-area hub notes
+├── Projects/                 per-project records (Crestorflow, DocCare/EndoCare,
+│                             Quivane)
+├── Agents/                   agent definitions
+└── sources/                  source material the doctrine was distilled from
+```
+
+Start at `brain/Ai Agent Brain/00-Agent-Brain-Index.md`.
+
+> This vault names real client engagements and carries business detail. It lives here
+> deliberately, in a public repo, by the owner's decision.
+
+---
+
 ## 🚀 Quick Start (One Command)
 
 ```bash

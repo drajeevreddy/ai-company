@@ -1,0 +1,17 @@
+# Obsidian workspace and UI state — machine-specific, never share
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+**/.obsidian/cache/
+
+# Vendored plugin build artifacts — reinstallable from the community store
+**/.obsidian/plugins/*/main.js
+**/.obsidian/plugins/*/styles.css
+**/.obsidian/plugins/*/data/startup-timings.json
+
+# Obsidian trash
+**/.trash/
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini

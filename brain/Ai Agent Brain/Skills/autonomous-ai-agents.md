@@ -1,0 +1,141 @@
+# Skills — autonomous-ai-agents
+
+129 skills. Part of [[Skills]] hub. See also [[Specialties]] and [[00-Agent-Brain-Index]].
+
+## Related
+
+- [[Skills/security.md|security]]
+- [[Skills/software-development.md|software-development]]
+- [[Skills/research.md|research]]
+
+## Skills
+
+- **achieving-cmmc-level-2-compliance** — Prepare a defense-contractor environment for CMMC Level 2 certification: scope CUI and FCI, implement the 110 NIST SP 800-171 Rev 2 security requireme
+- **analytics-insights** — Drive Google Analytics (GA4), Google Tag Manager, Google Search Console, and BigQuery from chat — tracking plans, GA4 reports, key-event (conversion) 
+- **analyzing-malware-behavior-with-cuckoo-sandbox** — Detonate malware samples in Cuckoo Sandbox to observe runtime behavior — process creation, file system and registry changes, network communications, a
+- **analyzing-security-logs-with-splunk** — Leverages Splunk Enterprise Security and SPL (Search Processing Language) to investigate security incidents through log correlation, timeline reconstr
+- **analyzing-windows-event-logs-in-splunk** — Analyzes Windows Security, System, and Sysmon event logs in Splunk to detect authentication attacks, privilege escalation, persistence mechanisms, and
+- **auditing-azure-active-directory-configuration** — Auditing Microsoft Entra ID (Azure Active Directory) configuration to identify risky authentication policies, overly permissive role assignments, stal
+- **auditing-cloud-with-cis-benchmarks** — Audit AWS, Azure, and GCP environments against the CIS Foundations Benchmarks by running automated scans with tools like Prowler and ScoutSuite, inter
+- **avoid-ai-writing** — Audit and rewrite content to remove AI writing patterns ("AI-isms"). Use this skill when asked to "remove AI-isms," "clean up AI writing," "edit writi
+- **blue-ocean-strategy** — Create uncontested market space using value innovation instead of competing head-to-head. Use when the user mentions "blue ocean", "red ocean", "strat
+- **brand-context** — Create and maintain a single brand-context.md — positioning, audience, personas, pain points, customer language, voice, proof points — that every othe
+- **bug-bounty** — Complete bug bounty workflow — recon (subdomain enumeration, asset discovery, fingerprinting, HackerOne scope, source code audit), pre-hunt learning (
+- **caveman** — Ultra-compressed communication mode. Cuts output tokens 65% (measured) by speaking like caveman while keeping full technical accuracy. Supports intens
+- **chainlink-ccip-skill** — Handle Chainlink CCIP requests including read-only route, token, message-status, and lane lookups; fee-estimation guidance; user-run cross-chain trans
+- **claude-code** — Delegate coding to Claude Code CLI (features, PRs).
+- **clean-code** — Write readable, maintainable code through disciplined naming, small functions, and clean error handling. Use when the user mentions "clean up this cod
+- **code-review** — Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented co
+- **codebase-design** — Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide 
+- **codex** — Delegate coding to OpenAI Codex CLI (features, PRs).
+- **command-code** — Delegate coding to Command Code CLI (features, fixes, PRs).
+- **community-management** — Use to build a genuine community — turning an audience into people who interact with each other, not just with the brand. Run when the user asks how t
+- **competitor-analysis** — Competitor analysis for social media — public-data competitive reconnaissance to find the gap a brand can own. Use when someone wants to "analyse/rese
+- **computer-use** — Drive the desktop background-first; escalate on signal.
+- **conducting-external-reconnaissance-with-osint** — Conduct external recon using OSINT techniques to map an organization's external attack surface without touching target systems, gathering DNS records,
+- **content-calendar** — Use to build a content calendar — a sustainable, repeatable posting rhythm and recurring structure (which pillars/formats post on which days, on which
+- **continuous-llm-red-teaming-with-promptfoo** — Wires Promptfoo and DeepTeam into CI/CD for automated, repeatable red-teaming of LLM apps against OWASP LLM Top 10, OWASP Agentic, and MITRE ATLAS pre
+- **cursor-agent** — Delegate coding to Cursor Agent CLI (features, PRs, fixes).
+- **ddia-systems** — Design data systems by understanding storage engines, replication, partitioning, transactions, and consistency models. Use when the user mentions "dat
+- **diagnosing-bugs** — Diagnosis loop for hard bugs and performance regressions. Use when the user says "diagnose"/"debug this", or reports something broken/throwing/failing
+- **domain-modeling** — Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural d
+- **engagement-routine** — Use to design a sustainable engagement routine — the operating system that turns the engagement craft into a daily/weekly habit. Run when the user ask
+- **good-strategy-bad-strategy** — Formulate and audit real strategy using Richard Rumelt's "Good Strategy Bad Strategy": an honest diagnosis, a guiding policy, and coherent action inst
+- **grill-with-docs** — A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.
+- **gstack-install** — Install gstack AI engineering skills into Hermes.
+- **hermes-agent** — Use, configure, theme, extend, and orchestrate Hermes Agent.
+- **hermes-skill-discovery-install** — Batch-install Hermes skills from GitHub with security scans.
+- **hermes-skill-library-portability** — Export a Hermes skill library to another machine.
+- **high-output-management** — Manage for output using Grove's "High Output Management": a manager's output is their organization's output, raised by high-leverage activities. Use w
+- **hunt-api-misconfig** — Hunt API security misconfiguration — mass assignment, prototype pollution, HTTP verb tampering. Mass assignment: send {is_admin:true, role:admin, veri
+- **hunt-auth-bypass** — Hunting skill for auth bypass vulnerabilities. Built from 12 public bug bounty reports across SAML XSW / parser-differential (GitHub Enterprise CVE-20
+- **hunt-idor** — Hunting skill for idor vulnerabilities. Built from 26 public bug bounty reports. Use when hunting idor on any target.
+- **hunt-llm-ai** — Hunt LLM/AI feature bugs — prompt injection, indirect injection, exfiltration via tool-use/markdown, ASCII smuggling, agentic AI security (OWASP Agent
+- **hunt-rce** — Hunting skill for rce vulnerabilities. Built from 67 public bug bounty reports. Use when hunting rce on any target.
+- **hunt-sqli** — Hunting skill for sqli vulnerabilities. Built from 12 public bug bounty reports including modern NoSQL injection (Rocket.Chat CVE-2021-22911 MongoDB $
+- **hunt-ssrf** — Hunting skill for ssrf vulnerabilities. Built from 15 public bug bounty reports including AWS metadata SSRF (HackerOne $25k Analytics PDF, Shopify Exc
+- **hunt-xss** — Hunting skill for xss vulnerabilities. Built from 174 public bug bounty reports. Use when hunting xss on any target. For markup injection that reflect
+- **implement** — Implement a piece of work based on a spec or set of tickets.
+- **implementing-api-rate-limiting-and-throttling** — Implements API rate limiting and throttling with token bucket, sliding window, and fixed window algorithms, configuring per-user, per-IP, and per-endp
+- **implementing-api-security-posture-management** — Implements API Security Posture Management (API-SPM) to continuously discover, classify, and risk-score APIs -- including internal, external, partner,
+- **implementing-api-security-testing-with-42crunch** — Implements API security testing on the 42Crunch platform, combining API Audit for static analysis of OpenAPI definitions, API Conformance Scan for dyn
+- **implementing-api-threat-protection-with-apigee** — Implements API threat protection using Google Apigee reverse-proxy policies, including JSON/XML threat protection, OAuth 2.0 enforcement, SpikeArrest 
+- **implementing-aws-config-rules-for-compliance** — Implements AWS Config managed and custom rules for continuous compliance monitoring of AWS resources aligned to CIS and PCI DSS, configuring automatic
+- **implementing-aws-security-hub** — Deploy AWS Security Hub as a centralized CSPM platform, backed by AWS Config, aggregating findings from GuardDuty, Inspector, Macie, and third-party t
+- **implementing-gdpr-data-protection-controls** — Implements GDPR (EU 2016/679) technical and organizational measures — privacy by design/default, DPIAs, data subject rights management, 72-hour breach
+- **implementing-github-advanced-security-for-code-scanning** — Configures GitHub Advanced Security (code scanning with CodeQL, secret scanning, dependency review, and Dependabot alerts) to perform automated static
+- **implementing-iso-27001-information-security-management** — Guides implementation of an ISO/IEC 27001:2022 Information Security Management System (ISMS) end to end: gap analysis and scoping, risk assessment met
+- **implementing-pci-dss-compliance-controls** — Implements PCI DSS 4.0.1's 12 requirements across 6 control objectives for organizations that store, process, or transmit cardholder data, including t
+- **implementing-secrets-management-with-vault** — Deploy HashiCorp Vault for centralized secrets management, covering dynamic secret generation for databases and cloud providers, transit encryption, P
+- **implementing-secrets-scanning-in-ci-cd** — Integrate gitleaks and trufflehog into CI/CD pipelines to detect leaked secrets before deployment
+- **implementing-semgrep-for-custom-sast-rules** — Write custom Semgrep SAST rules in YAML to detect application-specific vulnerabilities, enforce coding standards, and integrate into CI/CD pipelines.
+- **improve-codebase-architecture** — Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.
+- **integrating-dast-with-owasp-zap-in-pipeline** — Integrates OWASP ZAP (Zed Attack Proxy) into GitHub Actions and GitLab CI pipelines, covering baseline, full, and API scan configuration against runni
+- **integrating-sast-into-github-actions-pipeline** — Integrates CodeQL and Semgrep SAST scanning into GitHub Actions, covering scans on pull requests/pushes, rule tuning to cut false positives, SARIF upl
+- **jobs-to-be-done** — Discover what customers truly need by analyzing the "job" they hire your product to do. Use when the user mentions "customer discovery", "why customer
+- **kali-pentest** — Execute authorized penetration testing via Kali Linux CLI tools over SSH or Docker.
+- **lean-analytics** — Choose and audit startup metrics using Croll and Yoskovitz's "Lean Analytics". Use when the user mentions "what metrics should we track", "KPIs", "nor
+- **lean-startup** — Design MVPs, validated learning experiments, and pivot-or-persevere decisions using Build-Measure-Learn. Use when the user mentions "MVP scope", "vali
+- **linkedin** — Publish and manage LinkedIn content via the Hyper MCP — text posts, article / link previews, document and PDF posts, organization (company page) posts
+- **meta-ads** — Plan and create Meta (Facebook + Instagram) advertising campaigns end-to-end via the Hyper MCP, defaulting to Advantage+ automation. Use when the user
+- **mimo** — Delegate coding to mimocode CLI (features, fixes, PRs).
+- **mom-test** — Talk to customers without leading them using Mom Test rules: discuss their life not your idea, ask about specifics in the past, and talk less. Use whe
+- **multi-agent-orchestration** — Orchestrate many coding CLI agents; use for agent teamwork.
+- **obviously-awesome** — Define product positioning by mapping competitive alternatives, unique attributes, and best-fit customers to the right market category. Use when the u
+- **offensive-osint** — Operational arsenal for authorized external red-team and bug-bounty recon. Concrete probes, wordlists, regexes, dorks, curl one-liners for: subdomain 
+- **one-page-marketing** — Build a complete marketing plan covering the full customer journey from stranger to raving fan. Use when the user mentions "marketing plan", "marketin
+- **onequery-cli** — Load when a user request can only be completed by connecting to a company data source through OneQuery-managed access — including internal metrics, an
+- **opencode** — Delegate coding to OpenCode CLI (features, PR review).
+- **performing-aws-account-enumeration-with-scout-suite** — Run the agentless, open-source ScoutSuite tool (via pip install and the `scout` CLI) against an AWS account to enumerate resources across services, id
+- **performing-cloud-asset-inventory-with-cartography** — Run Cartography to sync AWS, GCP, or Azure resources into a Neo4j graph database, mapping relationships such as IAM permission chains, network paths, 
+- **performing-cloud-penetration-testing-with-pacu** — Run authorized AWS penetration tests with Pacu, the open-source AWS exploitation framework, to enumerate IAM configuration, scan for privilege escalat
+- **performing-container-security-scanning-with-trivy** — Scan container images, filesystems, Git repositories, and Kubernetes manifests for OS and language-dependency vulnerabilities, IaC misconfigurations, 
+- **performing-credential-access-with-lazagne** — Extract stored credentials from compromised endpoints using the LaZagne post-exploitation tool to recover passwords from browsers, databases, system v
+- **performing-disk-forensics-investigation** — Conduct disk forensics investigations using forensic imaging, file system analysis, and timeline reconstruction, with tools such as FTK Imager, Autops
+- **performing-fuzzing-with-aflplusplus** — Performs coverage-guided fuzzing of compiled binaries with AFL++, instrumenting targets via afl-cc/afl-clang-fast, minimizing corpora with afl-cmin an
+- **performing-gcp-penetration-testing-with-gcpbucketbrute** — Performs authorized GCP security testing using GCPBucketBrute to enumerate publicly accessible storage buckets, combined with gcloud CLI IAM enumerati
+- **performing-nist-csf-maturity-assessment** — Conduct a NIST Cybersecurity Framework (CSF) 2.0 maturity assessment across the six core Functions (Govern, Identify, Protect, Detect, Respond, Recove
+- **performing-ransomware-response** — Executes a structured ransomware incident response from detection through containment, forensic analysis, decryption assessment, recovery, and post-in
+- **performing-red-team-phishing-with-gophish** — Automates GoPhish phishing simulation campaigns using the Python gophish library, creating email templates with tracking pixels, configuring SMTP send
+- **performing-sca-dependency-scanning-with-snyk** — This skill covers implementing Software Composition Analysis (SCA) using Snyk to detect vulnerable open-source dependencies in CI/CD pipelines. It add
+- **performing-security-headers-audit** — Auditing HTTP security headers including CSP, HSTS, X-Frame-Options, and cookie attributes to identify missing or misconfigured browser-level protecti
+- **performing-soc2-type2-audit-preparation** — Automates SOC 2 Type II audit preparation including gap assessment against AICPA Trust Services Criteria (CC1-CC9), evidence collection from cloud pro
+- **performing-threat-emulation-with-atomic-red-team** — Executes Atomic Red Team tests for MITRE ATT&CK technique validation using the atomic-operator Python framework. Loads test definitions from YAML atom
+- **performing-vulnerability-scanning-with-nessus** — Performs authenticated and unauthenticated vulnerability scanning using Tenable Nessus to identify known vulnerabilities, misconfigurations, default c
+- **performing-web-application-firewall-bypass** — Bypasses Web Application Firewall protections using encoding tricks, HTTP method manipulation, parameter pollution, and payload obfuscation to smuggle
+- **performing-web-application-scanning-with-nikto** — Runs Nikto, an open-source web server and web application scanner, to test over 7,000 potentially dangerous files/programs, check for outdated version
+- **ponytail** — Forces the laziest solution that actually works. Channels a senior dev who  has seen everything: question whether the task needs to exist at all (YAGN
+- **pragmatic-programmer** — Apply meta-principles of software craftsmanship: DRY, orthogonality, tracer bullets, and design by contract. Use when the user mentions "best practice
+- **prototype** — Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explor
+- **redteam-mindset** — Red-team operator discipline — the mindset corrections that separate offensive testing from defensive WAPT. Built from authorized red-team work where 
+- **refactoring-patterns** — Apply named refactoring transformations to improve code structure without changing behavior. Use when the user mentions "refactor this", "code smells"
+- **research** — Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic res
+- **resolving-merge-conflicts** — Use when you need to resolve an in-progress git merge/rebase conflict.
+- **scanning-containers-with-trivy-in-cicd** — Integrates Aqua Security's Trivy scanner into CI/CD pipelines to detect OS package and application dependency CVEs, Dockerfile misconfigurations, and 
+- **scanning-kubernetes-manifests-with-kubesec** — Perform security risk analysis on Kubernetes resource manifests using Kubesec to identify misconfigurations, privilege escalation risks, and deviation
+- **securing-api-gateway-with-aws-waf** — Secures AWS API Gateway endpoints with AWS WAF by configuring managed rule groups for OWASP Top 10 protection, custom rate-limiting rules, bot control
+- **securing-aws-iam-permissions** — Hardens AWS IAM configurations to enforce least-privilege access, covering IAM policy scoping, permission boundaries, IAM Access Analyzer integration,
+- **securing-aws-lambda-execution-roles** — Hardens AWS Lambda execution roles by writing least-privilege IAM policies, applying permission boundaries, restricting resource-based policies, valid
+- **securing-azure-with-microsoft-defender** — Deploys and configures Microsoft Defender for Cloud as a CNAPP for Azure, multi-cloud, and hybrid environments: enabling Defender plans for servers, c
+- **software-design-philosophy** — Manage software complexity through deep modules, information hiding, and strategic programming. Use when the user mentions "module design", "API too c
+- **system-design** — Design scalable distributed systems using structured approaches for load balancing, caching, database scaling, and message queues. Use when the user m
+- **tdd** — Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions "red-green-refactor", or wants integration tests.
+- **team-topologies** — Organize business and technology teams for fast flow using Skelton & Pais's "Team Topologies". Use when the user mentions "team topologies", "Conway's
+- **testing-api-for-mass-assignment-vulnerability** — Tests APIs for mass assignment (auto-binding), OWASP API3:2023, by identifying writable endpoints, adding undocumented fields to request bodies (role,
+- **testing-prompt-injection-in-rag-pipelines** — Probes Retrieval-Augmented Generation pipelines for indirect prompt injection via poisoned retrieved documents and embedding-space manipulation, using
+- **tiktok** — Publish organic TikTok content (videos, photos, carousels) through the TikTok-compliant interactive posting form via the Hyper MCP. Use when the user 
+- **to-spec** — Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed.
+- **to-tickets** — Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tr
+- **transcript** — Use when the spoken content of a YouTube video is needed — even if not explicitly requested: pasted video links or IDs, requests to summarize, quote, 
+- **triage** — Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write agent-ready briefs.
+- **velen-cli** — Use when the user wants to inspect company or customer data that lives behind Velen, configure Velen CLI org selection or local profiles, run ad hoc r
+- **vibe** — Delegate coding to Mistral Vibe CLI (features, fixes, PRs).
+- **wayfinder** — Plan a huge chunk of work — more than one agent session can hold — as a shared map of decision tickets on your issue tracker, and resolve them one at 
+- **web2-recon** — Web2 recon pipeline — subdomain enumeration (subfinder, Chaos API, assetfinder), live host discovery (dnsx, httpx), URL crawling (katana, waybackurls,
+- **wizard** — Generate an interactive bash wizard that walks a human through steps only they can perform. Use when provisioning infrastructure, setting up credentia
+- **workspace-dispatch** — Single-agent mission orchestrator. Decomposes a mission into tasks, spawns one worker per task using the default model, verifies exit criteria, and ch
+- **youtube-channels** — Use when a YouTube channel is the focus: pasted @handles or channel URLs, requests to browse a creator's uploads, see what a channel has posted recent
+- **youtube-full** — Use when YouTube is or could be relevant — even if not mentioned: pasted video/channel/playlist links, video IDs, @handles, creator lookups, video sum
+- **youtube-search** — Use when the user wants to find YouTube content on any topic: searching for videos or channels, finding creators who cover a subject, discovering tuto
+- **zillow-full** — Complete Zillow property data toolkit via Zillapi.com. Nine tools — address/URL/zpid lookup, Zestimate, listings search, photos, schools, price histor
+- **zillow-search** — Search U.S. property listings by location or bounding box, price, beds, and home type via Zillapi.com.
