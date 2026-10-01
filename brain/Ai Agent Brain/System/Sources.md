@@ -5,6 +5,14 @@
   https://github.com/elder-plinius/CL4R1T4S/blob/main/OPENAI/Codex_Desktop/GPT-6_Astra_Prompts.md
 - Local archive: `../sources/GPT-6_Astra_Prompts.md` (kept out of the vault so the graph stays clean)
 
+## Supplied directly by the operator
+- **DeepSeek 4.1 — Assistant Operating Specification** (120 lines, 14KB, supplied 2026-10-01)
+  Local archive: `../sources/DeepSeek-4.1_Assistant-Operating-Spec.md`
+  Distilled reading: [[DeepSeek-4.1-Operating-Spec]]. Not from a leak repo — handed over as the
+  operator's stated intent for how an agent should behave in this workspace. Model-generic, so it
+  documents posture well and mechanism not at all. Sibling to the Astra line: Astra is the same
+  posture with the Hermes tool translation applied.
+
 ## Same repo (same raw-URL pattern, `raw.githubusercontent.com/elder-plinius/CL4R1T4S/main/…`)
 - `OPENAI/Codex_Desktop/5.6-Sol_SystemPrompt.md` (300KB) — previous-gen system prompt, good for diffing what changed
 - `OPENAI/Codex_Desktop/GPT-6-Astra_Tools.json` (1.1MB) — the tool definitions the prompts refer to

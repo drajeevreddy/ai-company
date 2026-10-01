@@ -7,6 +7,7 @@ Skills + specialties + operating system. No personal notes — project and clien
 - [[System/GitHub-Skills]] — 8 real GitHub skills + paleo token pack, installed 2026-09-12, with the quality loop
 - [[System/Ponytail]] — lazy senior dev mode: the ladder, YAGNI, shortest diff wins
 - [[System/Astra-Operating-System]] — autonomy, permission, plans, execution, validation rules (adapted to Hermes)
+- [[System/DeepSeek-4.1-Operating-Spec]] — the operator-supplied operating specification: the five prohibitions, the reasoning procedure, the over-refusal list; archived at `sources/`
 - [[System/Writing-Voice]] — humanized style rules
 - [[System/Anti-Slop-Prose]] — 34-pattern checklist with P0/P1/P2 severity (code AND prose must pass this)
 - [[System/Award-Winning-Design]] — design audit → fix → verify loop + hard rules
