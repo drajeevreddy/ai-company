@@ -5,7 +5,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Skills](https://img.shields.io/badge/skills-553-blue)](./SKILLS-INDEX.md)
-[![CLIs](https://img.shields.io/badge/source%20CLIs-8-informational)](#skill-library)
+![CLIs](https://img.shields.io/badge/source%20CLIs-8-informational)
 
 ---
 
