@@ -247,7 +247,7 @@ Worth stating plainly, because this repo mixes work from several sources:
 ## 📄 License
 
 MIT for this repository's own content. Third-party skills retain their upstream licenses —
-see [Provenance and licensing](#️-provenance-and-licensing).
+see the **Provenance and licensing** section above.
 
 ---
 
